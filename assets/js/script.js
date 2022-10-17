@@ -35,7 +35,7 @@ generateBtn.addEventListener('click', writePassword);
 // Add event listener to set-params button
 setParamsBtn.addEventListener('click', setParams);
 
-//
+// Generate the password using the selected length and cahracter set
 function generatePassword() {
     console.log('generating password');
     var length = document.getElementById('length').value;
@@ -53,6 +53,7 @@ function generatePassword() {
     return password;
 }
 
+// Build a charcter set based on the users selections
 function getCharacters() {
     console.log('getting characters');
     var characterSet = '';
@@ -72,6 +73,7 @@ function getCharacters() {
     return characterSet;
 }
 
+// Validate the user's inputs
 function validateInput() {
     console.log('length: ' + document.getElementById('length').value);
     if (document.getElementById('length').value < 8 || document.getElementById('length').value > 128) {
