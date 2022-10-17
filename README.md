@@ -1,11 +1,11 @@
 # password-generator
 
-## User Story: />
+## User Story:
 AS AN employee with access to sensitive data<br />
 I WANT to randomly generate a password that meets certain criteria<br />
 SO THAT I can create a strong password that provides greater security<br />
 
-## Acceptance Criteria: />
+## Acceptance Criteria:
 GIVEN I need a new, secure password<br />
 WHEN I click the button to generate a password<br />
 THEN I am presented with a series of prompts for password criteria<br />
@@ -21,7 +21,8 @@ WHEN all prompts are answered<br />
 THEN a password is generated that matches the selected criteria<br />
 WHEN the password is generated<br />
 THEN the password is either displayed in an alert or written to the page<br />
-## Mock-Up: />
+
+## Mock-Up:
 The following image shows the web application's appearance and functionality:
 
-## Link to deployed application: />
+## Link to deployed application:
